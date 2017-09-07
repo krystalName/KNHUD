@@ -19,8 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self.view KNHUDShow:@"正在加载" afterDelay:15];
-    
+    [self.view KNHUDShow:@"正在加载" userInteraction:YES afterDelay:15];
+   
 }
 
 
